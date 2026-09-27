@@ -1,0 +1,617 @@
+{
+  "kpis": {
+    "Total_Titles": 7787,
+    "Movie_Count": 5377,
+    "Movie_Percentage": 69.05,
+    "TV_Show_Count": 2410,
+    "TV_Show_Percentage": 30.95,
+    "Unique_Genres": 42,
+    "Unique_Countries": 117,
+    "Avg_Movie_Duration_Minutes": 99.31,
+    "Median_Movie_Duration_Minutes": 98.0,
+    "Avg_TV_Seasons": 1.78,
+    "Median_TV_Seasons": 1.0,
+    "Latest_Year_Added": 2021,
+    "Earliest_Year_Added": 2008
+  },
+  "missing_summary": [
+    {
+      "Column": "show_id",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Action_Taken": "No missing values"
+    },
+    {
+      "Column": "type",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Action_Taken": "No missing values"
+    },
+    {
+      "Column": "title",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Action_Taken": "No missing values"
+    },
+    {
+      "Column": "director",
+      "Missing_Count": 2389,
+      "Missing_Percentage": 30.68,
+      "Action_Taken": "Filled with 'Unknown Director'"
+    },
+    {
+      "Column": "cast",
+      "Missing_Count": 718,
+      "Missing_Percentage": 9.22,
+      "Action_Taken": "Filled with 'Unknown Cast'"
+    },
+    {
+      "Column": "country",
+      "Missing_Count": 507,
+      "Missing_Percentage": 6.51,
+      "Action_Taken": "Filled with 'Unknown Country'"
+    },
+    {
+      "Column": "date_added",
+      "Missing_Count": 10,
+      "Missing_Percentage": 0.13,
+      "Action_Taken": "Kept null in date fields; flagged as unrecorded addition date"
+    },
+    {
+      "Column": "release_year",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Action_Taken": "No missing values"
+    },
+    {
+      "Column": "rating",
+      "Missing_Count": 7,
+      "Missing_Percentage": 0.09,
+      "Action_Taken": "Filled with 'Unknown' rating"
+    },
+    {
+      "Column": "duration",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Action_Taken": "No missing values"
+    },
+    {
+      "Column": "listed_in",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Action_Taken": "No missing values"
+    },
+    {
+      "Column": "description",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Action_Taken": "No missing values"
+    }
+  ],
+  "yearly_growth": [
+    {
+      "year_added": 2008,
+      "Movie": 1,
+      "TV Show": 1,
+      "Total": 2,
+      "YoY_Total_Change_Count": 0,
+      "YoY_Growth_Rate_Pct": 0.0,
+      "Movie_Share_Pct": 50.0,
+      "TV_Share_Pct": 50.0
+    },
+    {
+      "year_added": 2009,
+      "Movie": 2,
+      "TV Show": 0,
+      "Total": 2,
+      "YoY_Total_Change_Count": 0,
+      "YoY_Growth_Rate_Pct": 0.0,
+      "Movie_Share_Pct": 100.0,
+      "TV_Share_Pct": 0.0
+    },
+    {
+      "year_added": 2010,
+      "Movie": 1,
+      "TV Show": 0,
+      "Total": 1,
+      "YoY_Total_Change_Count": -1,
+      "YoY_Growth_Rate_Pct": -50.0,
+      "Movie_Share_Pct": 100.0,
+      "TV_Share_Pct": 0.0
+    },
+    {
+      "year_added": 2011,
+      "Movie": 13,
+      "TV Show": 0,
+      "Total": 13,
+      "YoY_Total_Change_Count": 12,
+      "YoY_Growth_Rate_Pct": 1200.0,
+      "Movie_Share_Pct": 100.0,
+      "TV_Share_Pct": 0.0
+    },
+    {
+      "year_added": 2012,
+      "Movie": 3,
+      "TV Show": 0,
+      "Total": 3,
+      "YoY_Total_Change_Count": -10,
+      "YoY_Growth_Rate_Pct": -76.92,
+      "Movie_Share_Pct": 100.0,
+      "TV_Share_Pct": 0.0
+    },
+    {
+      "year_added": 2013,
+      "Movie": 6,
+      "TV Show": 5,
+      "Total": 11,
+      "YoY_Total_Change_Count": 8,
+      "YoY_Growth_Rate_Pct": 266.67,
+      "Movie_Share_Pct": 54.55,
+      "TV_Share_Pct": 45.45
+    },
+    {
+      "year_added": 2014,
+      "Movie": 19,
+      "TV Show": 6,
+      "Total": 25,
+      "YoY_Total_Change_Count": 14,
+      "YoY_Growth_Rate_Pct": 127.27,
+      "Movie_Share_Pct": 76.0,
+      "TV_Share_Pct": 24.0
+    },
+    {
+      "year_added": 2015,
+      "Movie": 58,
+      "TV Show": 30,
+      "Total": 88,
+      "YoY_Total_Change_Count": 63,
+      "YoY_Growth_Rate_Pct": 252.0,
+      "Movie_Share_Pct": 65.91,
+      "TV_Share_Pct": 34.09
+    },
+    {
+      "year_added": 2016,
+      "Movie": 258,
+      "TV Show": 185,
+      "Total": 443,
+      "YoY_Total_Change_Count": 355,
+      "YoY_Growth_Rate_Pct": 403.41,
+      "Movie_Share_Pct": 58.24,
+      "TV_Share_Pct": 41.76
+    },
+    {
+      "year_added": 2017,
+      "Movie": 864,
+      "TV Show": 361,
+      "Total": 1225,
+      "YoY_Total_Change_Count": 782,
+      "YoY_Growth_Rate_Pct": 176.52,
+      "Movie_Share_Pct": 70.53,
+      "TV_Share_Pct": 29.47
+    },
+    {
+      "year_added": 2018,
+      "Movie": 1255,
+      "TV Show": 430,
+      "Total": 1685,
+      "YoY_Total_Change_Count": 460,
+      "YoY_Growth_Rate_Pct": 37.55,
+      "Movie_Share_Pct": 74.48,
+      "TV_Share_Pct": 25.52
+    },
+    {
+      "year_added": 2019,
+      "Movie": 1497,
+      "TV Show": 656,
+      "Total": 2153,
+      "YoY_Total_Change_Count": 468,
+      "YoY_Growth_Rate_Pct": 27.77,
+      "Movie_Share_Pct": 69.53,
+      "TV_Share_Pct": 30.47
+    },
+    {
+      "year_added": 2020,
+      "Movie": 1312,
+      "TV Show": 697,
+      "Total": 2009,
+      "YoY_Total_Change_Count": -144,
+      "YoY_Growth_Rate_Pct": -6.69,
+      "Movie_Share_Pct": 65.31,
+      "TV_Share_Pct": 34.69
+    },
+    {
+      "year_added": 2021,
+      "Movie": 88,
+      "TV Show": 29,
+      "Total": 117,
+      "YoY_Total_Change_Count": -1892,
+      "YoY_Growth_Rate_Pct": -94.18,
+      "Movie_Share_Pct": 75.21,
+      "TV_Share_Pct": 24.79
+    }
+  ],
+  "top_genres_overall": [
+    {
+      "Genre": "International Movies",
+      "Count": 2437,
+      "Pct_of_Total_Library": 31.3
+    },
+    {
+      "Genre": "Dramas",
+      "Count": 2106,
+      "Pct_of_Total_Library": 27.05
+    },
+    {
+      "Genre": "Comedies",
+      "Count": 1471,
+      "Pct_of_Total_Library": 18.89
+    },
+    {
+      "Genre": "International TV Shows",
+      "Count": 1199,
+      "Pct_of_Total_Library": 15.4
+    },
+    {
+      "Genre": "Documentaries",
+      "Count": 786,
+      "Pct_of_Total_Library": 10.09
+    },
+    {
+      "Genre": "Action & Adventure",
+      "Count": 721,
+      "Pct_of_Total_Library": 9.26
+    },
+    {
+      "Genre": "TV Dramas",
+      "Count": 704,
+      "Pct_of_Total_Library": 9.04
+    },
+    {
+      "Genre": "Independent Movies",
+      "Count": 673,
+      "Pct_of_Total_Library": 8.64
+    },
+    {
+      "Genre": "Children & Family Movies",
+      "Count": 532,
+      "Pct_of_Total_Library": 6.83
+    },
+    {
+      "Genre": "Romantic Movies",
+      "Count": 531,
+      "Pct_of_Total_Library": 6.82
+    },
+    {
+      "Genre": "TV Comedies",
+      "Count": 525,
+      "Pct_of_Total_Library": 6.74
+    },
+    {
+      "Genre": "Thrillers",
+      "Count": 491,
+      "Pct_of_Total_Library": 6.31
+    },
+    {
+      "Genre": "Crime TV Shows",
+      "Count": 427,
+      "Pct_of_Total_Library": 5.48
+    },
+    {
+      "Genre": "Kids' TV",
+      "Count": 414,
+      "Pct_of_Total_Library": 5.32
+    },
+    {
+      "Genre": "Docuseries",
+      "Count": 353,
+      "Pct_of_Total_Library": 4.53
+    }
+  ],
+  "genre_by_type": [
+    {
+      "genre": "International Movies",
+      "Movie": 2437,
+      "TV Show": 0,
+      "Total": 2437
+    },
+    {
+      "genre": "Dramas",
+      "Movie": 2106,
+      "TV Show": 0,
+      "Total": 2106
+    },
+    {
+      "genre": "Comedies",
+      "Movie": 1471,
+      "TV Show": 0,
+      "Total": 1471
+    },
+    {
+      "genre": "International TV Shows",
+      "Movie": 0,
+      "TV Show": 1199,
+      "Total": 1199
+    },
+    {
+      "genre": "Documentaries",
+      "Movie": 786,
+      "TV Show": 0,
+      "Total": 786
+    },
+    {
+      "genre": "Action & Adventure",
+      "Movie": 721,
+      "TV Show": 0,
+      "Total": 721
+    },
+    {
+      "genre": "TV Dramas",
+      "Movie": 0,
+      "TV Show": 704,
+      "Total": 704
+    },
+    {
+      "genre": "Independent Movies",
+      "Movie": 673,
+      "TV Show": 0,
+      "Total": 673
+    },
+    {
+      "genre": "Children & Family Movies",
+      "Movie": 532,
+      "TV Show": 0,
+      "Total": 532
+    },
+    {
+      "genre": "Romantic Movies",
+      "Movie": 531,
+      "TV Show": 0,
+      "Total": 531
+    },
+    {
+      "genre": "TV Comedies",
+      "Movie": 0,
+      "TV Show": 525,
+      "Total": 525
+    },
+    {
+      "genre": "Thrillers",
+      "Movie": 491,
+      "TV Show": 0,
+      "Total": 491
+    },
+    {
+      "genre": "Crime TV Shows",
+      "Movie": 0,
+      "TV Show": 427,
+      "Total": 427
+    },
+    {
+      "genre": "Kids' TV",
+      "Movie": 0,
+      "TV Show": 414,
+      "Total": 414
+    },
+    {
+      "genre": "Docuseries",
+      "Movie": 0,
+      "TV Show": 353,
+      "Total": 353
+    }
+  ],
+  "top_countries": [
+    {
+      "Country": "United States",
+      "Count": 3297,
+      "Pct_of_Total_Library": 42.34
+    },
+    {
+      "Country": "India",
+      "Count": 990,
+      "Pct_of_Total_Library": 12.71
+    },
+    {
+      "Country": "United Kingdom",
+      "Count": 723,
+      "Pct_of_Total_Library": 9.28
+    },
+    {
+      "Country": "Canada",
+      "Count": 412,
+      "Pct_of_Total_Library": 5.29
+    },
+    {
+      "Country": "France",
+      "Count": 349,
+      "Pct_of_Total_Library": 4.48
+    },
+    {
+      "Country": "Japan",
+      "Count": 287,
+      "Pct_of_Total_Library": 3.69
+    },
+    {
+      "Country": "Spain",
+      "Count": 215,
+      "Pct_of_Total_Library": 2.76
+    },
+    {
+      "Country": "South Korea",
+      "Count": 212,
+      "Pct_of_Total_Library": 2.72
+    },
+    {
+      "Country": "Germany",
+      "Count": 199,
+      "Pct_of_Total_Library": 2.56
+    },
+    {
+      "Country": "Mexico",
+      "Count": 154,
+      "Pct_of_Total_Library": 1.98
+    },
+    {
+      "Country": "China",
+      "Count": 147,
+      "Pct_of_Total_Library": 1.89
+    },
+    {
+      "Country": "Australia",
+      "Count": 144,
+      "Pct_of_Total_Library": 1.85
+    },
+    {
+      "Country": "Egypt",
+      "Count": 110,
+      "Pct_of_Total_Library": 1.41
+    },
+    {
+      "Country": "Turkey",
+      "Count": 108,
+      "Pct_of_Total_Library": 1.39
+    },
+    {
+      "Country": "Hong Kong",
+      "Count": 102,
+      "Pct_of_Total_Library": 1.31
+    }
+  ],
+  "rating_distribution": [
+    {
+      "Rating": "TV-MA",
+      "Count": 2863,
+      "Pct_of_Total": 36.77
+    },
+    {
+      "Rating": "TV-14",
+      "Count": 1931,
+      "Pct_of_Total": 24.8
+    },
+    {
+      "Rating": "TV-PG",
+      "Count": 806,
+      "Pct_of_Total": 10.35
+    },
+    {
+      "Rating": "R",
+      "Count": 665,
+      "Pct_of_Total": 8.54
+    },
+    {
+      "Rating": "PG-13",
+      "Count": 386,
+      "Pct_of_Total": 4.96
+    },
+    {
+      "Rating": "TV-Y",
+      "Count": 280,
+      "Pct_of_Total": 3.6
+    },
+    {
+      "Rating": "TV-Y7",
+      "Count": 271,
+      "Pct_of_Total": 3.48
+    },
+    {
+      "Rating": "PG",
+      "Count": 247,
+      "Pct_of_Total": 3.17
+    },
+    {
+      "Rating": "TV-G",
+      "Count": 194,
+      "Pct_of_Total": 2.49
+    },
+    {
+      "Rating": "NR",
+      "Count": 84,
+      "Pct_of_Total": 1.08
+    },
+    {
+      "Rating": "G",
+      "Count": 39,
+      "Pct_of_Total": 0.5
+    },
+    {
+      "Rating": "Unknown",
+      "Count": 7,
+      "Pct_of_Total": 0.09
+    },
+    {
+      "Rating": "TV-Y7-FV",
+      "Count": 6,
+      "Pct_of_Total": 0.08
+    },
+    {
+      "Rating": "UR",
+      "Count": 5,
+      "Pct_of_Total": 0.06
+    },
+    {
+      "Rating": "NC-17",
+      "Count": 3,
+      "Pct_of_Total": 0.04
+    }
+  ],
+  "rating_group_distribution": [
+    {
+      "Rating_Group": "Adult (18+)",
+      "Count": 3536,
+      "Pct_of_Total": 45.41
+    },
+    {
+      "Rating_Group": "Teens (13-17)",
+      "Count": 2317,
+      "Pct_of_Total": 29.75
+    },
+    {
+      "Rating_Group": "Kids & Family",
+      "Count": 1843,
+      "Pct_of_Total": 23.67
+    },
+    {
+      "Rating_Group": "Not Rated (NR)",
+      "Count": 84,
+      "Pct_of_Total": 1.08
+    },
+    {
+      "Rating_Group": "Unknown / Unrated",
+      "Count": 7,
+      "Pct_of_Total": 0.09
+    }
+  ],
+  "movie_duration_distribution": [
+    {
+      "Duration_Category": "Medium (60\u2013120 min)",
+      "Count": 3946,
+      "Pct_of_Movies": 73.39
+    },
+    {
+      "Duration_Category": "Long (>120 min)",
+      "Count": 1011,
+      "Pct_of_Movies": 18.8
+    },
+    {
+      "Duration_Category": "Short (<60 min)",
+      "Count": 420,
+      "Pct_of_Movies": 7.81
+    }
+  ],
+  "tv_season_distribution": [
+    {
+      "Season_Category": "1 Season",
+      "Count": 1608,
+      "Pct_of_TV_Shows": 66.72
+    },
+    {
+      "Season_Category": "2\u20133 Seasons",
+      "Count": 566,
+      "Pct_of_TV_Shows": 23.49
+    },
+    {
+      "Season_Category": "4+ Seasons",
+      "Count": 236,
+      "Pct_of_TV_Shows": 9.79
+    }
+  ]
+}
